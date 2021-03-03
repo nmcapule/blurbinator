@@ -1,6 +1,6 @@
 {
   "name": "blurbinator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmcapule/blurbinator.git"
+  },
   "dependencies": {
     "typescript": "^4.2.2"
   },
