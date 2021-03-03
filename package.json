@@ -1,0 +1,23 @@
+{
+  "name": "blurbinator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine *.spec.ts",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.6.4",
+    "jasmine": "^3.6.4",
+    "ts-node": "^9.1.1"
+  }
+}
